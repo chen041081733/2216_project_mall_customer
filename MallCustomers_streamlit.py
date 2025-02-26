@@ -17,8 +17,13 @@ from src.K_Means_Model import k_M_model
 # upload data
 #file_path = r"C:\algonquin\2025W\2216_ML\2216_project\2216_project_mall_customer\data\mall_customers.csv"
 file_path = "https://raw.githubusercontent.com/chen041081733/2216_project_mall_customer/data/mall_customers.csv"
-df = pd.read_csv(file_path)
-print(os.getcwd())
+try:
+    df = pd.read_csv(file_path)
+    logging.info("data load successfully")
+except Exception as e:
+    st.error("data load fail, please check the path")
+    logging.error(f'data load fail:{e}')
+    df = None
 
 # Streamlite title
 st.title('Mall Customer Clustering Results')

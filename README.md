@@ -53,5 +53,5 @@ o	Enter customer details:
 	Spending Score
 o	Click "Predict Cluster" to view the predicted cluster and the characteristics of the cluster center.
 
-Thank you for using the Credit Eligibility Application!  
+Thank you for using the Mall Customer Clustering Application!  
 

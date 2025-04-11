@@ -55,3 +55,7 @@ o	Click "Predict Cluster" to view the predicted cluster and the characteristics 
 
 Thank you for using the Mall Customer Clustering Application!  
 
+Streamlit link:
+https://2216projectmallcustomer-dutfolgkqyafw3xq8enb2g.streamlit.app/
+
+
